@@ -1,0 +1,200 @@
+.page
+{
+	  background-image:url('pics/background_w_b.png');
+	width:1340px;
+	height:auto;
+	border-style:groove;
+}
+.header
+{
+	width:1330px;
+	height:100px;
+	border-style:groove;
+	background-image:url('pics/name_clg.png');
+	background-repeat:no-repeat;
+}
+
+.links
+{
+	width:1330px;
+	height:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:red;
+	border-style:groove;
+	
+}
+.links a{
+	color:white;
+	font-family:castellar;
+	text-decoration:none;
+}
+.links a:hover
+{
+	background-color:#fff;
+	color:#000;
+	
+}
+
+
+
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow-container {
+  width :1330px;
+  height:500px;
+  border-style:groove;
+ margin-top:10px;
+}
+
+/* Hide the images by default */
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width:auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top:200px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.body
+{
+	
+	width:1330px;
+	height:750px;
+	border-style:groove;
+	margin-top:5px;
+
+}
+.body .imagepart
+{width:900px;
+	height:700px;
+	border-style:groove;
+	color:black;
+	font-family:bragley hand ITC;
+	display:inline-block;
+}
+.names{
+	display: block;
+	margin-top:10px;
+	margin-bottom:20px;
+	color: black;
+    font-weight: 400;
+	font-family: monospace;
+	font-size: 1.2rem;
+}
+
+.body .newspart h2
+{
+	color:blue;
+	margin-left:100px;
+	}
+
+.body .newspart 
+{
+	width:418px;
+height:700px;
+border-style:groove;
+float:right;
+}
+.body .newspart .news 
+{
+	width:418px;
+	height:500px;
+}
+.body .newspart h1
+{
+	margin-left:45px;
+	color:red;
+}
+.body .newspart .news h4
+{
+	color:blue;
+}
+
+#footer
+{ 
+	text-align: center;
+    width:100%;
+	height: fit-content;
+    background: rgba(6, 3, 61, 0.8);
+	margin-top:100px;
+	font-family:Arial, Helvetica, sans-serif;
+	border-style:groove;
+	color:white;
+}
+
+#footer p {
+	color: #fff;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+p{
+	color:black;
+	font-family:lucida calligraphy;
+	font-size:13px;
+}
